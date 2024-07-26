@@ -1,0 +1,22 @@
+#使用len函数求字符串的长度
+n="Hello world!"
+print(len(n))
+#索引来获取单个字符
+print(n[0])
+print(n[len(n)-1])
+#float类型
+n2=1.2
+#int类型
+n3=1
+#布尔类型
+b1=True
+b2=False
+#空值
+n1=None
+#使用type函数来返回数据
+print(type(n))
+print(type(b1))
+print(type(n2))
+print(type(n3))
+print(type(b2))
+print(type(n1))
